@@ -12,7 +12,7 @@ body {
   font-family: Roboto, 'Open Sans', sans-serif;
 }
 
-.hero {
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +20,7 @@ body {
   background-color: #1f2937;
 }
 
-.header {
+.navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;;
@@ -34,12 +34,12 @@ body {
   color: #f9faf8;
 }
 
-.header-links {
+.navigation-links {
   display: flex;
   column-gap: 24px;
 }
 
-.header-links li {
+.navigation-links li {
   list-style: none;
   color: #e5e7eb;
   font-size: 18px;
