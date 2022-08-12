@@ -105,7 +105,6 @@ body {
   align-items: center;
 }
 
-
 /** Information headline **/
 .info-heading {
   color: #1f2937;
@@ -136,4 +135,25 @@ body {
   color: #353535;
   text-align: center;
   margin-top: 8px;
+}
+
+/* Quote section */
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 100px 25vw;
+  margin-top: 100px;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: 900;
+  text-align: right;
+  padding: 16px 32px;
 }
